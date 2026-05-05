@@ -33,6 +33,7 @@ int main() {
         else if (kurung == ')' || kurung == ']' || kurung == '}') {
             if (top==NULL){
                 printf("INVALUD\n");
+                return 0;
             }
             char open = top->data;
             struct Node* temp = top;
