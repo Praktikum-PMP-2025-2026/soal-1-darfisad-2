@@ -32,7 +32,7 @@ int main() {
         }
         else if (kurung == ')' || kurung == ']' || kurung == '}') {
             if (top==NULL){
-                printf("INVALUD\n");
+                printf("INVALID\n");
                 return 0;
             }
             char open = top->data;
